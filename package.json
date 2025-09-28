@@ -1,0 +1,44 @@
+{
+  "name": "audibry",
+  "version": "1.0.0",
+  "description": "Premium audio marketplace for creative professionals",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx live-server --port=8080 --open=/",
+    "build": "echo 'Build process for production deployment'",
+    "test": "echo 'No tests specified yet'"
+  },
+  "keywords": [
+    "audio",
+    "marketplace",
+    "sound-design",
+    "foley",
+    "ambience",
+    "sound-effects",
+    "professional-audio",
+    "96khz",
+    "24-bit",
+    "wav",
+    "flac",
+    "aiff"
+  ],
+  "author": "Audibry Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nimaxo3D/Audibry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nimaxo3D/Audibry/issues"
+  },
+  "homepage": "https://github.com/Nimaxo3D/Audibry#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
